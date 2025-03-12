@@ -44,6 +44,7 @@ export default function SearchSection() {
                   <SelectValue placeholder="Language" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="hindi">Hindi</SelectItem>
                   <SelectItem value="english">English</SelectItem>
                   <SelectItem value="spanish">Spanish</SelectItem>
                   <SelectItem value="french">French</SelectItem>
@@ -64,6 +65,9 @@ export default function SearchSection() {
                   <SelectItem value="fantasy">Fantasy</SelectItem>
                   <SelectItem value="romance">Romance</SelectItem>
                   <SelectItem value="thriller">Thriller</SelectItem>
+                  <SelectItem value="horror">Horror</SelectItem>
+                  <SelectItem value="historic fiction">Historical Fiction</SelectItem>
+                  <SelectItem value="biography & memoir">Biography & Memoir</SelectItem>
                 </SelectContent>
               </Select>
 
@@ -72,9 +76,14 @@ export default function SearchSection() {
                   <SelectValue placeholder="Author" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="popular">Popular Authors</SelectItem>
+                  <SelectItem value="popular Authors">Popular Authors</SelectItem>
                   <SelectItem value="award-winning">Award-Winning</SelectItem>
-                  <SelectItem value="new">New Authors</SelectItem>
+                  <SelectItem value="new authors">New Authors</SelectItem>
+                  <SelectItem value="bestselling authors">Bestselling Authors</SelectItem>
+                  <SelectItem value="classic & timeless authors">Classic & Timeless Authors</SelectItem>
+                  <SelectItem value="book-to-screen">Book-to-Screen Authors</SelectItem>
+                  <SelectItem value="culturally-influential">Culturally Influential Authors</SelectItem>
+                  <SelectItem value="all">All</SelectItem>
                 </SelectContent>
               </Select>
 
@@ -86,7 +95,14 @@ export default function SearchSection() {
                   <SelectItem value="penguin">Penguin Random House</SelectItem>
                   <SelectItem value="harpercollins">HarperCollins</SelectItem>
                   <SelectItem value="simon">Simon & Schuster</SelectItem>
-                  <SelectItem value="macmillan">Macmillan</SelectItem>
+                  <SelectItem value="hachette">Hachette Livre</SelectItem>
+                  <SelectItem value="macmillan">Macmillan Publishers</SelectItem>
+                  <SelectItem value="harlequin">Harlequin</SelectItem>
+                  <SelectItem value="tor">Tor Books</SelectItem>
+                  <SelectItem value="oxford">Oxford University Press</SelectItem>
+                  <SelectItem value="shueisha">Shueisha & other Manga Publishers</SelectItem>
+                  <SelectItem value="rupa">Rupa Publications</SelectItem>
+                  <SelectItem value="others">Others</SelectItem>
                 </SelectContent>
               </Select>
 
@@ -108,6 +124,8 @@ export default function SearchSection() {
                   <SelectItem value="bestseller">Bestsellers</SelectItem>
                   <SelectItem value="trending">Trending</SelectItem>
                   <SelectItem value="top-rated">Top Rated</SelectItem>
+                  <SelectItem value="most-read">Most Read</SelectItem>
+                  <SelectItem value="reader’s-choice">Reader’s Choice</SelectItem>
                 </SelectContent>
               </Select>
             </div>
