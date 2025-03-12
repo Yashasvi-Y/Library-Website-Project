@@ -1,4 +1,4 @@
 # Library-Website-Project
 
 
-![Image of hero section](images/heroSection.png)
+![Image of hero section](Readme/heroSection.png)
